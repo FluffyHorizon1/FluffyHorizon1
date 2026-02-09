@@ -14,7 +14,7 @@
 ---
 
 ## 📖 About Me
-> *“Bridging the gap between institutional capital and the decentralized web through rigorous security and quantitative analysis. The future of investment is autonomous – unbound by traditional borders, validated by performance, and secured by cryptography.”*
+> *“Bridging the gap between institutional capital and the decentralized web through proprietary high-frequency algorithms and zero-trust architecture. The future of wealth is autonomous and data-driven—unbound by traditional borders, validated by statistical alpha, and secured by cryptography.”*
 
 I am a security-focused executive and engineer passionate about building scalable financial products and hardened systems. With a background ranging from hands-on **cyber defense** to **fintech innovation**, I bridge the gap between executive strategy and **advanced systems engineering**.
 
