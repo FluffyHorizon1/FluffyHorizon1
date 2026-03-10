@@ -7,7 +7,7 @@
 *Building the next generation of secure financial infrastructure*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/finnian-bond)
-[![Website]([https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://securedcybersolutions.co.uk/))
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=letsencrypt&logoColor=white)](https://securedcybersolutions.co.uk/)
 
 </div>
 
@@ -44,7 +44,6 @@ Proprietary HFT algorithms validated across diverse market regimes. Specialized 
 ---
 
 ## 💻 Tech Stack
-
 ```
 Security        C++ • Python • OpenSSL • Metasploit • Burp Suite • Wireshark • Snort
 Systems         Linux • Docker • AWS • PostgreSQL • Bash • CMake
@@ -67,7 +66,6 @@ DevOps          Git • Jenkins • Grafana • Syslog • CI/CD
 ---
 
 ## 🎯 Current Focus
-
 ```cpp
 // Current Focus (2025)
 const auto current_projects = {
