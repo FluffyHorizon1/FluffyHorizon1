@@ -26,7 +26,7 @@ I architect **zero-trust security systems** and **embedded finance platforms** a
 
 ## 🛠️ Featured Projects
 
-### 🦭 [SecureSeaHorse](https://github.com/FluffyHorizon1/SecureSeaHorse)
+### 🦭 [SecureSeaHorseSIEM](https://github.com/FluffyHorizon1/SecureSeaHorseSIEM)
 
 A production-grade **C++ telemetry agent** with mTLS, anti-tamper mechanisms, and zero-trust architecture. Built for high-security environments where standard monitoring solutions fall short.
 
@@ -77,7 +77,7 @@ DevOps       Git • Jenkins • Grafana • Syslog • CI/CD
 const auto current_projects = {
     .building      = "Next-gen telemetry infrastructure with eBPF",
     .exploring     = "Zero-knowledge proofs for financial privacy",
-    .hardening     = "Anti-tampering mechanisms in SecureSeaHorse",
+    .hardening     = "Anti-tampering mechanisms in SecureSeaHorseSIEM",
     .learning      = "Rust for systems programming",
     .collaborating = "Open-source security tooling"
 };
@@ -87,15 +87,63 @@ const auto current_projects = {
 
 ## 📊 GitHub Stats
 
-<!-- Cards render from a SELF-HOSTED github-readme-stats instance on Vercel:
+<!--
+  Cards below come from three sources:
+    1. SELF-HOSTED github-readme-stats (Vercel): stats, top-langs, pinned repos
        https://github-readme-stats-dun-omega-13.vercel.app
-     If the cards ever stop loading: confirm the instance is up and that the
-     PAT_1 env var on Vercel hasn't expired (regenerate the token + redeploy).
-     The streak card uses streak-stats.demolab.com and needs no instance. -->
+    2. Public services: streak (demolab), trophies, activity graph
+    3. GitHub Actions that GENERATE images into this repo:
+         metrics       -> github-metrics.svg           (.github/workflows/metrics.yml)
+         snake         -> "output" branch              (.github/workflows/snake.yml)
+         summary cards -> profile-summary-card-output/ (.github/workflows/profile-summary-cards.yml)
+
+  ⚠️  The Action-generated images (metrics, snake, summary cards) show as BROKEN
+      until each workflow has run once. After committing, go to the repo's
+      Actions tab, pick each workflow, and click "Run workflow" to seed them.
+-->
 
 <div align="center">
 
+<!-- ▸ Isometric metrics  (GitHub Action: metrics.yml) -->
+
+![Metrics](./github-metrics.svg)
+
+<!-- ▸ Core stats + commit streak -->
+
+![GitHub Stats](https://github-readme-stats-dun-omega-13.vercel.app/api?username=FluffyHorizon1&show_icons=true&include_all_commits=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=FluffyHorizon1&theme=dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF)
+
+<!-- ▸ Pinned flagship repos -->
+
+<a href="https://github.com/FluffyHorizon1/SecureSeaHorseSIEM">
+  <img src="https://github-readme-stats-dun-omega-13.vercel.app/api/pin/?username=FluffyHorizon1&repo=SecureSeaHorseSIEM&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+</a>
+<a href="https://github.com/FluffyHorizon1/z-messanger">
+  <img src="https://github-readme-stats-dun-omega-13.vercel.app/api/pin/?username=FluffyHorizon1&repo=z-messanger&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+</a>
+
+<!-- ▸ Top languages -->
+
 ![Top Languages](https://github-readme-stats-dun-omega-13.vercel.app/api/top-langs/?username=FluffyHorizon1&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9)
+
+<!-- ▸ Trophies -->
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=FluffyHorizon1&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8)
+
+<!-- ▸ Contribution activity graph -->
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=FluffyHorizon1&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&hide_border=true)
+
+<!-- ▸ Profile summary cards  (GitHub Action: profile-summary-cards.yml) -->
+
+![Repos per language](https://raw.githubusercontent.com/FluffyHorizon1/FluffyHorizon1/main/profile-summary-card-output/github_dark/1-repos-per-language.svg)
+![Most used language](https://raw.githubusercontent.com/FluffyHorizon1/FluffyHorizon1/main/profile-summary-card-output/github_dark/2-most-commit-language.svg)
+![Productive time](https://raw.githubusercontent.com/FluffyHorizon1/FluffyHorizon1/main/profile-summary-card-output/github_dark/4-productive-time.svg)
+
+<!-- ▸ Snake contribution animation  (GitHub Action: snake.yml) -->
+
+![Snake](https://raw.githubusercontent.com/FluffyHorizon1/FluffyHorizon1/output/github-snake-dark.svg)
 
 </div>
 
