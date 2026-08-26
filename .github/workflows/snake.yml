@@ -1,0 +1,37 @@
+# .github/workflows/snake.yml
+#
+# Generates the "snake eating your contribution graph" SVGs and pushes them to
+# a branch called "output". No extra token needed — uses the built-in
+# GITHUB_TOKEN. Referenced in README.md as:
+#   ![Snake](https://raw.githubusercontent.com/FluffyHorizon1/FluffyHorizon1/output/github-snake-dark.svg)
+
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
+  workflow_dispatch:       # run manually the first time to seed the "output" branch
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: FluffyHorizon1
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

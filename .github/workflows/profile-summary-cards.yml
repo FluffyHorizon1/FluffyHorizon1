@@ -1,0 +1,32 @@
+# .github/workflows/profile-summary-cards.yml
+#
+# Generates a set of summary cards into profile-summary-card-output/ on the
+# main branch (one subfolder per theme). No extra token needed — uses the
+# built-in GITHUB_TOKEN. Referenced in README.md from the github_dark folder,
+# e.g. profile-summary-card-output/github_dark/1-repos-per-language.svg
+#
+# Cards produced per theme:
+#   0-profile-details, 1-repos-per-language, 2-most-commit-language,
+#   3-stats, 4-productive-time
+
+name: GitHub Profile Summary Cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
+  workflow_dispatch:       # run manually the first time to seed the folder
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate summary cards
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: FluffyHorizon1
