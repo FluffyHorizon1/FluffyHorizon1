@@ -106,7 +106,7 @@ const auto current_projects = {
 
 <!-- ▸ Isometric metrics  (GitHub Action: metrics.yml) -->
 
-![Metrics](./github-metrics.svg)
+<!-- ![Metrics](./github-metrics.svg)
 
 <!-- ▸ Core stats + commit streak -->
 
@@ -116,12 +116,6 @@ const auto current_projects = {
 
 <!-- ▸ Pinned flagship repos -->
 
-<a href="https://github.com/FluffyHorizon1/SecureSeaHorseSIEM">
-  <img src="https://github-readme-stats-dun-omega-13.vercel.app/api/pin/?username=FluffyHorizon1&repo=SecureSeaHorseSIEM&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
-</a>
-<a href="https://github.com/FluffyHorizon1/z-messanger">
-  <img src="https://github-readme-stats-dun-omega-13.vercel.app/api/pin/?username=FluffyHorizon1&repo=z-messanger&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
-</a>
 
 <!-- ▸ Top languages -->
 
@@ -129,11 +123,11 @@ const auto current_projects = {
 
 <!-- ▸ Trophies -->
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=FluffyHorizon1&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8)
+<!-- ![Trophies](https://github-profile-trophy.vercel.app/?username=FluffyHorizon1&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8)
 
 <!-- ▸ Contribution activity graph -->
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=FluffyHorizon1&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&hide_border=true)
+<!-- ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=FluffyHorizon1&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&hide_border=true)
 
 <!-- ▸ Profile summary cards  (GitHub Action: profile-summary-cards.yml) -->
 
