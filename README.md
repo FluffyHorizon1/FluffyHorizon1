@@ -4,6 +4,8 @@
 
 **Security Architect • Founder • Systems Engineer**
 
+*The Mission - Humanity, Order & Science*
+
 *Building the next generation of secure financial infrastructure*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/finnian-bond)
